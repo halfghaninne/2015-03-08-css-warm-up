@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Practice Facebook Login</title>
-    <link rel="stylesheet" href="/style.css" type="text/css"            charset="utf-8">
+  <link rel="stylesheet" href="style.css" type="text/css"            charset="utf-8">
 </head>
 <body>
   <header>
@@ -18,27 +18,30 @@
                 <label for="password">Password</label>
               </td>
             </tr> <!-- end of login headers -->
-            <tr> <!-- login fields -->
+            <tr class="login_fields"> <!-- login fields -->
               <td class="login_field">
                 <input type="text" class="input_text" name="email" id="email">
               </td>
-              <td class ="login_field">
+              <td class="login_field">
                 <input type="password" class="input_text" name="pass" id="pass">
               </td>
-              <td>
-                <button>Log In</button>
+              <td class="login_field">
+                <button>
+                  <label for"button" class="button_label">Log In</label>
+                </button>
               </td> 
             </tr> <!-- end of login fields -->
+            <tr class="other_login_preferences"> <!-- other login preferences -->
               <td class="persist">
-                <div>
+               <div>
                   <input type="checkbox" id="persist_box" class="persist_box">
                   <label for="persist_box" class="persist_label">Keep me logged in</label>
-                </div>
+               </div>
               </td>
               <td class="forgot_pass">
                 <a href="https://facebook.com/recover/initiate">Forgot your password?</a>
               </td>
-            <tr> <!-- other login preferences -->
+
             </tr> <!-- end of other login preferences -->
           </tbody>
         </table>
