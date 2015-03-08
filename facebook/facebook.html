@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practice Facebook Login</title>
+    <link rel="stylesheet" href="/style.css" type="text/css"            charset="utf-8">
+</head>
+<body>
+  <header>
+    <div class = "login_menu_container">
+      <form>
+        <table>
+          <tbody>
+            <tr> <!-- login headers -->
+              <td class="login_labels">
+                <label for="email">Email or Phone</label>
+              </td>
+              <td class="login_labels">
+                <label for="password">Password</label>
+              </td>
+            </tr> <!-- end of login headers -->
+            <tr> <!-- login fields -->
+              <td class="login_field">
+                <input type="text" class="input_text" name="email" id="email">
+              </td>
+              <td class ="login_field">
+                <input type="password" class="input_text" name="pass" id="pass">
+              </td>
+              <td>
+                <button>Log In</button>
+              </td> 
+            </tr> <!-- end of login fields -->
+              <td class="persist">
+                <div>
+                  <input type="checkbox" id="persist_box" class="persist_box">
+                  <label for="persist_box" class="persist_label">Keep me logged in</label>
+                </div>
+              </td>
+              <td class="forgot_pass">
+                <a href="https://facebook.com/recover/initiate">Forgot your password?</a>
+              </td>
+            <tr> <!-- other login preferences -->
+            </tr> <!-- end of other login preferences -->
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </header>
+</body>
+</html>
